@@ -89,16 +89,18 @@
                                                                                   </block>
                                                                                 </value>
                                                                                 <next>
-                                                                                  <block type="variables_set" id="422" inline="true">
-                                                                                    <field name="VAR">Floor</field>
-                                                                                    <value name="VALUE">
-                                                                                      <block type="sensor_spectrometer" id="358">
-                                                                                        <field name="LIGHT">GREEN</field>
+                                                                                  <block type="controls_whileUntil" id="429" inline="false">
+                                                                                    <field name="MODE">UNTIL</field>
+                                                                                    <value name="NUMBER">
+                                                                                      <block type="sensor_line" id="587">
+                                                                                        <field name="LINE">MIDDLE</field>
                                                                                       </block>
                                                                                     </value>
-                                                                                    <next>
-                                                                                      <block type="movement_stop" id="290"></block>
-                                                                                    </next>
+                                                                                    <statement name="DO">
+                                                                                      <block type="multimedia_playwav" id="471">
+                                                                                        <field name="WAV">1</field>
+                                                                                      </block>
+                                                                                    </statement>
                                                                                   </block>
                                                                                 </next>
                                                                               </block>
