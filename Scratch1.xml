@@ -80,8 +80,8 @@
                                                                           </block>
                                                                         </value>
                                                                         <next>
-                                                                          <block type="comment_comment" id="641">
-                                                                            <field name="TEXT">Lift Me Up!</field>
+                                                                          <block type="oled_linerect" id="656">
+                                                                            <field name="OBJECT">RECT</field>
                                                                             <next>
                                                                               <block type="movement_stop" id="639"></block>
                                                                             </next>
