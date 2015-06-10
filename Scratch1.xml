@@ -1,58 +1,12 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="10" x="17" y="19">
+  <block type="movement_forward" id="10" x="61" y="96">
     <next>
-      <block type="robot_delay" id="12" inline="true">
+      <block type="robot_delay" id="137" inline="true">
         <value name="DELAY">
-          <block type="math_number" id="19">
-            <field name="NUM">5000</field>
+          <block type="math_number" id="144">
+            <field name="NUM">3000</field>
           </block>
         </value>
-        <next>
-          <block type="movement_stop" id="40">
-            <next>
-              <block type="movement_reverse" id="60">
-                <next>
-                  <block type="robot_delay" id="71" inline="true">
-                    <value name="DELAY">
-                      <block type="math_number" id="78">
-                        <field name="NUM">5000</field>
-                      </block>
-                    </value>
-                    <next>
-                      <block type="movement_left" id="88">
-                        <next>
-                          <block type="robot_delay" id="90" inline="true">
-                            <value name="DELAY">
-                              <block type="math_number" id="97">
-                                <field name="NUM">3000</field>
-                              </block>
-                            </value>
-                            <next>
-                              <block type="movement_forward" id="107">
-                                <next>
-                                  <block type="robot_delay" id="109" inline="true">
-                                    <value name="DELAY">
-                                      <block type="math_number" id="116">
-                                        <field name="NUM">3000</field>
-                                      </block>
-                                    </value>
-                                    <next>
-                                      <block type="movement_stop" id="126"></block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
       </block>
     </next>
   </block>
