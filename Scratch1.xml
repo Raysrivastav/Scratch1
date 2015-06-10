@@ -79,6 +79,15 @@
                                                                             <field name="NUM">2000</field>
                                                                           </block>
                                                                         </value>
+                                                                        <next>
+                                                                          <block type="movement_stop" id="639">
+                                                                            <next>
+                                                                              <block type="comment_comment" id="641">
+                                                                                <field name="TEXT">Lift Me Up!</field>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
                                                                       </block>
                                                                     </next>
                                                                   </block>
