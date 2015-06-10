@@ -89,18 +89,16 @@
                                                                                   </block>
                                                                                 </value>
                                                                                 <next>
-                                                                                  <block type="controls_whileUntil" id="429" inline="false">
-                                                                                    <field name="MODE">UNTIL</field>
-                                                                                    <value name="NUMBER">
-                                                                                      <block type="sensor_line" id="587">
-                                                                                        <field name="LINE">MIDDLE</field>
+                                                                                  <block type="movement_stutter" id="609">
+                                                                                    <next>
+                                                                                      <block type="robot_delay" id="611" inline="true">
+                                                                                        <value name="DELAY">
+                                                                                          <block type="math_number" id="618">
+                                                                                            <field name="NUM">2000</field>
+                                                                                          </block>
+                                                                                        </value>
                                                                                       </block>
-                                                                                    </value>
-                                                                                    <statement name="DO">
-                                                                                      <block type="multimedia_playwav" id="471">
-                                                                                        <field name="WAV">1</field>
-                                                                                      </block>
-                                                                                    </statement>
+                                                                                    </next>
                                                                                   </block>
                                                                                 </next>
                                                                               </block>
