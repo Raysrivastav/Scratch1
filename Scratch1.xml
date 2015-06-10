@@ -80,11 +80,10 @@
                                                                           </block>
                                                                         </value>
                                                                         <next>
-                                                                          <block type="movement_stop" id="639">
+                                                                          <block type="comment_comment" id="641">
+                                                                            <field name="TEXT">Lift Me Up!</field>
                                                                             <next>
-                                                                              <block type="comment_comment" id="641">
-                                                                                <field name="TEXT">Lift Me Up!</field>
-                                                                              </block>
+                                                                              <block type="movement_stop" id="639"></block>
                                                                             </next>
                                                                           </block>
                                                                         </next>
