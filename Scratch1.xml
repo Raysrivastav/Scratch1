@@ -89,7 +89,17 @@
                                                                                   </block>
                                                                                 </value>
                                                                                 <next>
-                                                                                  <block type="movement_stop" id="290"></block>
+                                                                                  <block type="variables_set" id="422" inline="true">
+                                                                                    <field name="VAR">Floor</field>
+                                                                                    <value name="VALUE">
+                                                                                      <block type="sensor_spectrometer" id="358">
+                                                                                        <field name="LIGHT">GREEN</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <next>
+                                                                                      <block type="movement_stop" id="290"></block>
+                                                                                    </next>
+                                                                                  </block>
                                                                                 </next>
                                                                               </block>
                                                                             </next>
